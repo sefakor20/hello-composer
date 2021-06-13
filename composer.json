@@ -1,0 +1,19 @@
+{
+    "name": "rcodes/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sefakor20",
+            "email": "sefakorhom2012@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rcodes\\HelloWorld\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
